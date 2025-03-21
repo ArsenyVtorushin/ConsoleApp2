@@ -21,10 +21,13 @@ namespace ConsoleApp2
                 else _name = "Cat"; 
             }
         }
-        public string Color { get; set; }
+        /*public string Color { get; set; }
         public Cat() { }
-        public Cat(string name) : this(name, 0, true) { }
-        public Cat(string name, double weight) { }
-        public Cat(string name, double weight, bool sex) { }
+        public Cat(string name) 
+            : this(name, 0, true) { }
+        public Cat(string name, double weight)
+            : this(name, weight, true) { }*/
+       /* public Cat(string name, double weight, bool sex)
+            : this(name, weight, sex) { }*/
     }
 }
